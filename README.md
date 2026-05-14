@@ -1,58 +1,59 @@
-<h1 align="center">📊 C Record Management System</h1>
+<h1 align="center">📊 Sistema de Gerenciamento de Registros em C</h1>
 
 <p align="center">
-  A complete record management system built in C, featuring CRUD operations, file persistence, and basic data security.
+  Sistema completo de gerenciamento de registros desenvolvido em C, com operações CRUD,
+  persistência em arquivos e conceitos básicos de segurança de dados.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/language-C-blue?style=for-the-badge&logo=c">
-  <img src="https://img.shields.io/badge/status-completed-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/platform-console-lightgrey?style=for-the-badge">
-  <img src="https://img.shields.io/badge/focus-CRUD%20%26%20file%20system-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/linguagem-C-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/status-concluído-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/plataforma-console-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/foco-CRUD%20%26%20arquivos-orange?style=for-the-badge">
 </p>
 
 <hr>
 
-<h2>🚀 About the Project</h2>
+<h2>🚀 Sobre o Projeto</h2>
 
 <p>
-The <strong>C Record Management System</strong> is a console-based application designed to manage structured data using
-<strong>binary files</strong>. It supports full <strong>CRUD operations</strong> and introduces concepts such as
-<strong>logical vs physical deletion</strong> and <strong>basic file encryption</strong>.
+O <strong>Sistema de Gerenciamento de Registros em C</strong> é uma aplicação via terminal desenvolvida para gerenciar dados estruturados utilizando
+<strong>arquivos binários</strong>. O sistema suporta operações completas de <strong>CRUD</strong> e introduz conceitos como
+<strong>exclusão lógica, exclusão física</strong> e <strong>criptografia simples de arquivos</strong>.
 </p>
 
 <hr>
 
-<h2>🧠 Features</h2>
+<h2>🧠 Funcionalidades</h2>
 
 <ul>
-  <li>➕ Create new records</li>
-  <li>📋 List active records</li>
-  <li>✏️ Update existing records</li>
-  <li>❌ Logical deletion (soft delete)</li>
-  <li>🗑️ Physical deletion (permanent removal)</li>
-  <li>🔍 Search by ID</li>
-  <li>🔎 Search by name</li>
-  <li>💾 Binary file storage</li>
-  <li>🔐 Simple file encryption system (XOR-based)</li>
-  <li>📖 Built-in help system with encryption</li>
+  <li>➕ Criar novos registros</li>
+  <li>📋 Listar registros ativos</li>
+  <li>✏️ Atualizar registros existentes</li>
+  <li>❌ Exclusão lógica (soft delete)</li>
+  <li>🗑️ Exclusão física (remoção permanente)</li>
+  <li>🔍 Buscar por ID</li>
+  <li>🔎 Buscar por nome</li>
+  <li>💾 Armazenamento em arquivo binário</li>
+  <li>🔐 Sistema simples de criptografia de arquivos (baseado em XOR)</li>
+  <li>📖 Sistema de ajuda interno com criptografia</li>
 </ul>
 
 <hr>
 
-<h2>🛠️ Tech Stack</h2>
+<h2>🛠️ Tecnologias Utilizadas</h2>
 
 <ul>
-  <li><strong>C (Core language)</strong></li>
-  <li>Standard Library (stdio, stdlib, string, ctype)</li>
-  <li>Binary File Handling (fread, fwrite, fseek)</li>
-  <li>Struct-based data modeling</li>
-  <li>Console UI interaction</li>
+  <li><strong>C</strong></li>
+  <li>Biblioteca padrão (stdio, stdlib, string, ctype)</li>
+  <li>Manipulação de arquivos binários (fread, fwrite, fseek)</li>
+  <li>Modelagem de dados com structs</li>
+  <li>Interação via terminal</li>
 </ul>
 
 <hr>
 
-<h2>📂 Project Structure</h2>
+<h2>📂 Estrutura do Projeto</h2>
 
 <pre>
 c-record-management-system/
@@ -62,48 +63,36 @@ c-record-management-system/
 
 <hr>
 
-<h2>⚙️ Getting Started</h2>
+<h2>⚙️ Como Executar</h2>
 
 <pre>
-# Compile
+# Compilar
 gcc sistemaregistro.cpp -o record-system
 
-# Run
+# Executar
 ./record-system
 </pre>
 
 <hr>
 
-<h2>🎯 Learning Goals</h2>
+<h2>🎯 Objetivos de Aprendizado</h2>
 
 <p>
-This project was developed to improve skills in:
+Este projeto foi desenvolvido para aprimorar habilidades em:
 </p>
 
 <ul>
-  <li>CRUD system design</li>
-  <li>Binary file manipulation</li>
-  <li>Data persistence without databases</li>
-  <li>Memory and file pointer control</li>
-  <li>Basic data security techniques</li>
+  <li>Desenvolvimento de sistemas CRUD</li>
+  <li>Manipulação de arquivos binários</li>
+  <li>Persistência de dados sem uso de banco de dados</li>
+  <li>Controle de memória e ponteiros de arquivo</li>
+  <li>Conceitos básicos de segurança de dados</li>
 </ul>
 
 <hr>
 
-<h2>📌 Future Improvements</h2>
-
-<ul>
-  <li>Add login/authentication system</li>
-  <li>Improve encryption method</li>
-  <li>Implement indexing for faster searches</li>
-  <li>Refactor into modular architecture</li>
-  <li>Develop a GUI version</li>
-</ul>
-
-<hr>
-
-<h2>👨‍💻 Author</h2>
+<h2>👨‍💻 Autor</h2>
 
 <p align="center">
-  Developed by <strong>Daniel Augusto Silva</strong><br>
+  Desenvolvido por <strong>Daniel Augusto Silva</strong><br>
 </p>
