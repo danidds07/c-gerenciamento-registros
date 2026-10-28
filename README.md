@@ -1,45 +1,43 @@
-# Sistema de Gerenciamento de Registros em C
+**English** | [Português](README.pt-BR.md)
 
-Aplicação de terminal em C para gerenciar registros salvos direto em arquivo binário,
-feita para a disciplina de Algoritmos 2. O foco é em manipulação de arquivos, não em
-banco de dados: os registros são lidos e gravados diretamente em disco com `fread`,
-`fwrite` e `fseek`.
+# Record Management System in C
 
-## O que dá para fazer
+A terminal application in C that manages records stored directly in a binary file, built for my Algorithms 2 course. The focus is file handling, not databases: records are read from and written to disk with `fread`, `fwrite` and `fseek`.
 
-- criar, listar, atualizar e buscar registros (por ID ou por nome);
-- excluir um registro de forma lógica, marcando-o como inativo sem apagar os dados;
-- excluir um registro de forma física, reescrevendo o arquivo sem aquele registro;
-- proteger o conteúdo do arquivo com uma camada simples de criptografia XOR.
+## What it does
 
-Os registros são modelados com structs e ficam guardados em um único arquivo binário,
-sem depender de nenhuma biblioteca externa.
+- create, list, update and search records (by ID or by name);
+- logical deletion, marking a record as inactive without erasing its data;
+- physical deletion, rewriting the file without that record;
+- input validation for numbers and text, so invalid entries never reach the file;
+- a help manual opened with F1, stored in a separate file obfuscated with a simple XOR cipher.
 
-## Tecnologias
+Records are modeled with structs and kept in a single binary file, with no external libraries.
+
+## Tech stack
 
 - C
-- Biblioteca padrão (stdio, stdlib, string, ctype)
-- Manipulação de arquivos binários (fread, fwrite, fseek)
-- Modelagem de dados com structs
+- Standard library (stdio, stdlib, string, ctype)
+- Binary file handling (fread, fwrite, fseek)
+- Data modeling with structs
 
-## Como executar
+## How to run
 ```bash
 gcc sistemaregistro.cpp -o record-system
 ./record-system
 ```
 
-## Estrutura do projeto
+## Project structure
 ```text
 c-record-management-system/
 |-- sistemaregistro.cpp
 `-- README.md
 ```
 
-## Contexto acadêmico
+## Academic context
 
-Feito para a disciplina de Algoritmos 2, como exercício de manipulação de arquivos
-binários, ponteiros de arquivo e persistência de dados sem usar banco de dados.
+Built for my Algorithms 2 course, as an exercise in binary file handling, file pointers and data persistence without a database.
 
-## Autor
+## Author
 
-Desenvolvido por Daniel Augusto Silva.
+Developed by Daniel Augusto Silva.
